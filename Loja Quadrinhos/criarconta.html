@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/style2.css">
+        <title>Comics Island - Criar Conta</title>
+        <link rel="icon" href="IMAGES/iconisland.png">
+    </head>
+    <body>
+        <div class="navbar">
+            <a href="index.html"><div style="color: #fff;">Comic's Island</div></a>
+            <div class="nav">
+                <li><a href="">Entrar</a></li>
+                <li><a href="">Catálogo</a></li>
+                <li><a href="">Planos</a></li>
+                <li><a href="">Criar Conta</a></li>
+            </div>
+        </div>
+        <div class="account-details">
+            <form action="/submit-account-details" method="post">
+                <label for="username">Nome de usuário:</label><br>
+                <input type="text" id="username" name="username"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="password">Senha:</label><br>
+                <input type="password" id="password" name="password"><br>
+                <label for="confirm-password">Confirme a senha:</label><br>
+                <input type="password" id="confirm-password" name="confirm-password"><br>
+                <a href="index.html" class="buy-button"><div style="color: #fff;">Criar Conta</div></a>
+            </form>
+        </div>
+    </body>
+</html>
